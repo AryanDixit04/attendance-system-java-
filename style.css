@@ -1,0 +1,22 @@
+/* CSS styling for autocomplete feature */
+
+#autocomplete-suggestions {
+    position: absolute;
+    background-color: white;
+    border: 1px solid #ccc;
+    max-height: 200px;
+    overflow-y: auto;
+    width: 200px;
+    /* Style for autocomplete suggestions dropdown */
+    .autocomplete-suggestion {
+        padding: 5px;
+        cursor: pointer;
+    }
+    /* Highlighted suggestion style */
+    .autocomplete-suggestion.highlighted {
+        background-color: #f0f0f0;
+        .autocomplete-suggestion:hover {
+            background-color: #f0f0f0;
+        }
+    }
+}
